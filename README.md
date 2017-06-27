@@ -38,7 +38,7 @@ Globally installed Node packages:
 ``` npm install -g @angular/cli lerna loopback-cli ```
 
 ### setup
-Clone the repositry and install the dependencies:
+Clone the repository and install the dependencies:
 ```
 git clone https://github.com/dreamdevil00/angular2-loopbackjs-project-seed.git
 cd angular2-loopbackjs-project-seed
