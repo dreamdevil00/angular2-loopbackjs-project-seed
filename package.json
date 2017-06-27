@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "This is a project seed for an API with an Admin interface that can be easily\r extended and built upon, borrowed from [Colmena](https://github.com/colmena/colmena)\r but only reserves code structure and basic configuration to make it clean.",
   "scripts": {
+    "postinstall": "lerna bootstrap",
+    "dev": "lerna run dev --stream",
+    "dev:admin": "lerna run dev --stream --scope @colmena/admin",
+    "dev:api": "lerna run dev --stream --scope @colmena/api",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -53,5 +57,9 @@
     "tslint": "^5.4.3",
     "typescript": "^2.3.4",
     "zone.js": "^0.8.12"
+  },
+  "dependencies": {
+    "cross-env": "^5.0.1",
+    "debug": "^2.6.8"
   }
 }

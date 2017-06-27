@@ -1,11 +1,14 @@
 {
-  "name": "api",
-  "version": "1.0.0",
+  "name": "@colmena/api",
+  "version": "0.0.0",
   "main": "server/server.js",
   "engines": {
     "node": ">=4"
   },
   "scripts": {
+    "clean": "rimraf ./client/*",
+    "dev": "nodemon",
+    "sdk": "cross-env NODE_ENV=codegen lb-sdk --wipe enabled server/server.js ../../packages/admin-lb-skd/src",
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint && nsp check"
