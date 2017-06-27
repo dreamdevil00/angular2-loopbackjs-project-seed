@@ -6,10 +6,10 @@ but only reserves code structure and basic configuration to make it clean.
 
 ## Introduction
 It is built using a collection of great Open Source projects, including but not limited to:
-- LoopBack(http://loopback.io) API server based on Express.
-- Angular(http://www.angular.cn) MVC framework to build web apps.
-- LoopBack SDK Builder(https://www.npmjs.com/package/@mean-expert/loopback-sdk-builder) - Awesome integration of Loopback and Angular.
-- CoreUI -Amazing Bootstrap Admin Template.
+- [LoopBack](http://loopback.io) API server based on Express.
+- [Angular](http://www.angular.cn) MVC framework to build web apps.
+- [LoopBack SDK Builder](https://www.npmjs.com/package/@mean-expert/loopback-sdk-builder) - Awesome integration of Loopback and Angular.
+- [CoreUI](http://coreui.io/) -Amazing Bootstrap Admin Template.
 
 ## Structure
 The project is a mono-repo managed by [lerna](https://lernajs.io/). It is structured like this:
