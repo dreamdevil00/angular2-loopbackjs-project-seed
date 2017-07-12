@@ -1,5 +1,7 @@
 .idea
+.vscode
 node_modules
 dist
-lerna-debug.json
+lerna-debug.log
+npm-debug.log
 production.yaml
