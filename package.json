@@ -27,7 +27,7 @@
   "homepage": "https://github.com/dreamdevil00/angular2-loopbackjs-project-seed#readme",
   "devDependencies": {
     "@angular/animations": "^4.2.4",
-    "@angular/cli": "^1.1.3",
+    "@angular/cli": "^1.2.0",
     "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
     "@angular/compiler-cli": "^4.2.4",
