@@ -10,6 +10,7 @@ It is built using a collection of great Open Source projects, including but not 
 - [Angular](http://www.angular.cn) - MVC framework to build web apps.
 - [LoopBack SDK Builder](https://www.npmjs.com/package/@mean-expert/loopback-sdk-builder) - Awesome integration of Loopback and Angular.
 - [CoreUI](http://coreui.io/) - Amazing Bootstrap Admin Template.
+- [@ngrx/store](https://github.com/ngrx/store) - RxJS powered state management for Angular applications
 
 ## Structure
 The project is a mono-repo managed by [lerna](https://lernajs.io/).  It is structured like this:
